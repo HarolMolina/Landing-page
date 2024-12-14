@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-container {
+    background-color: #1f2937;
+    font-family: roboto;
+    color: aliceblue;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+}
