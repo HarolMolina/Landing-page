@@ -2,9 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    /* border: 1px solid #f40707; */
+    /* For debugging */
 }
 
+body {
+    height: 100vh;
+}
+
+
+/* header */
 .menu-container {
     display: flex;
     justify-content: center;
@@ -22,10 +31,109 @@
 .links {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    font-size: 18px;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
     color: #e5e7eb;
 }
+
 .logo {
- font-size: 30px;
+    font-size: 24px;
+
 }
+
+/* hero section */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    gap: 40px;
+    /* border: 1px solid #f40707; */
+    /* For debugging */
+    width: 900px;
+}
+
+.hero {
+    /* border: 1px solid #cce012; */
+    /* For debugging */
+    width: 500px;
+    color: #e5e7eb;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.image {
+    width: 550px;
+    border: 1px solid #f40707;
+    /* For debugging */
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    border: none;
+}
+
+/* second section */
+.information {
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+
+.container0 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container1 {
+    width: 190px;
+    font-family: italic;
+}
+
+.cuadrado {
+    width: 130px;
+    height: 130px;
+    border: 4px solid #3882f6;
+    /* For debugging */
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+/* third section */
+
+.cuote_container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f2937;
+    font-size: 23px;
+    
+    }
